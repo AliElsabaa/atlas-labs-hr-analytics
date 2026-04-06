@@ -16,6 +16,7 @@ The goal was to answer two core business questions:
 
 ## 🎬 Dashboard Demo
 
+Here in the assets folder
 https://github.com/AliElsabaa/atlas-labs-hr-analytics/blob/main/assets/Demo.mp4
 
 ---
@@ -35,7 +36,7 @@ Deep dive into workforce demographics covering age distribution, gender breakdow
 ### 3️⃣ Performance Tracker
 Individual employee performance tracking over time, including satisfaction metrics across Work-Life Balance, Job, Environment, and Relationship — alongside Self Rating vs. Manager Rating year-over-year.
 
-![Performance Tracker](screenshots/Performance Tracker.png)
+![Performance Tracker](screenshots/Performance%20Tracker.png)
 
 ### 4️⃣ Attrition Analysis
 Identifying attrition drivers by Job Role, Tenure, Travel Frequency, Hire Date, and Overtime requirement.
@@ -57,7 +58,7 @@ Star Schema with **1 Fact Table** and **5 Dimension Tables**:
 | `Dim_EducationLevel` | Dimension | Education classification |
 | `DimDate` | Dimension | Date table generated via DAX code |
 
-![Data Model](data_model/data_model.png)
+![Data Model](data_model/data_model.jpeg)
 
 **Key Modeling Decisions:**
 - Applied **Role-Playing Relationships** using Active & Inactive Relationships with `USERELATIONSHIP()`
